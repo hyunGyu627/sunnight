@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Jstest</title>
+</head>
+<body>
+    <div class="b">흑</div>
+    <div class="w">백</div>
+
+    <input type="button" value="極夜" onclick="
+        document.querySelector('body').style.backgroundColor = 'black';
+        document.querySelector('.night').style.backgroundColor = 'black';
+        document.querySelector('.night').style.color = 'white';
+        document.querySelector('.b').style.color = 'white';
+        " class="night">
+
+
+
+    <input type="button" value="白夜" onclick="
+         document.querySelector('body').style.backgroundColor = 'white';
+         " class="sun">
+</body>
+</html>

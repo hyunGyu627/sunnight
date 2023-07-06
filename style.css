@@ -1,0 +1,52 @@
+body {
+    transition: 0.5s;
+    display: flex;
+    justify-content: center;
+     -webkit-touch-callout: none; /* iOS Safari */
+     -webkit-user-select: none; /* Safari */
+     -ms-user-select: none; /* 인터넷익스플로러 */
+      user-select: none;
+      
+}
+
+.night {
+    position: absolute;
+    align-content: center;
+    border-radius: 10px;
+    top: 40%;
+    left: 35%;
+    font-size: 60px;
+    border: none;
+    padding: 20px 30px;
+    background-color: black;
+    color: white;
+}
+
+.sun {
+    position: absolute;
+    align-content: center;
+    border-radius: 10px;
+    top: 40%;
+    right: 35%;
+    font-size: 60px;
+    border: none;
+    padding: 20px 30px;
+    background-color: white;
+}
+
+.w {
+    position: absolute;
+    font-size: 500px;
+    top: 70px;
+    right: 24%;
+    opacity:0.3;
+}
+
+.b {
+    position: absolute;
+    font-size: 500px;
+    top: 70px;
+    left: 24%;
+    opacity:0.3;
+    color: white;
+}
